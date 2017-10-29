@@ -13,7 +13,7 @@
 			<div class="row">
 				<div class="col-xs-12" style="position: relative;color: whitesmoke;top: 150px;left: 420px;">
 					<h2 style="font-size: 100px;margin-bottom: 20px;">sarang.</h2>
-					<form method="post" action="" class="form-group">
+					<form method="get" action="/welcome.do" class="form-group">
 						<input type="text" placeholder="Username" style="width: 300px;height: 40px;margin-bottom: 20px;" class="form-control">
 		    			<input type="password" placeholder="Password" style="width: 300px;height: 40px;margin-bottom: 20px;" class="form-control">
 		    			<input type="submit" value="Login" style="width: 300px;height: 40px;background-color: #85ce57;border-color: #85ce57;" class="btn btn-primary">

@@ -1,4 +1,4 @@
-package com.sarang.formatter.security;
+/*package com.sarang.formatter.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -36,9 +36,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     
     @Override
 	public void configure(WebSecurity web) throws Exception {
-		web.ignoring().antMatchers("/**.css");
-		web.ignoring().antMatchers("/**.js");
-		web.ignoring().antMatchers("/**.png");
-		web.ignoring().antMatchers("/**.jpg");
+		web.ignoring().antMatchers("/images/*.png");
 	}
 }
+*/
